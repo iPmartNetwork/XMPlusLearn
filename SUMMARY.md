@@ -1,13 +1,6 @@
----
-description: An Xray frontend and backend.
----
-
-# About XMPlus
-
-An Xray-based frontend and backend manager that supports Vless, Vmess, Trojan, Shadowsocks protocols.
-
 # Table of contents
 
+* [About XMPlus](README.md)
 
 ## XMPlus Installation
 
@@ -43,3 +36,5 @@ An Xray-based frontend and backend manager that supports Vless, Vmess, Trojan, S
 ## API Usage
 
    * [User API](usage/api.md)
+	
+
