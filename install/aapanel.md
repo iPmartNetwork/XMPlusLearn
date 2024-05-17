@@ -2,13 +2,20 @@
 
 ### 1. Configure aaPanel
 
-You need to select your system in aaPanel to get the installation method. Here, CentOS 7+ is used as the system environment for installation.
+You need to select your system in aaPanel to get the installation method. Here, CentOS 7+ and ubuntu is used as the system environment for installation.
 
 Please be sure to use CentOS 7+ to install aaPanel, other systems may have unknown issues.
 
+## CentOS
 ```
 yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh
 ```
+
+## Ubuntu
+```
+apt install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh
+```
+
 After the installation is complete, we log in to aaPanel to install the environment.
 
 Select the environment installation method using LNMP to check the following information
